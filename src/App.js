@@ -1,11 +1,15 @@
 
 import './App.css';
-import { ClearFix } from './components/ClearFix';
+
+import { ResizeBrowser } from './components/ResizeBrowser';
+
 
 function App() {
   return (
     <div className="App">
-      <ClearFix/>
+      <ResizeBrowser/>
+
+
       
     </div>
   );
