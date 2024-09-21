@@ -1,0 +1,28 @@
+.container{
+
+    background-color: lawngreen;
+    height:1000px;
+}
+
+img{
+    width:170px;
+    float:right;
+
+}
+
+.container > div{
+
+    border:3px solid blue;
+    padding:5px;
+   
+    
+}
+
+.clearfix::after{
+
+content: "";
+clear:both;
+display:table;
+
+
+}
