@@ -1,12 +1,14 @@
 
 import './App.css';
-import { ClearFix } from './components/ClearFix';
-import { Test } from './components/Test';
+
+import { ResizeBrowser } from './components/ResizeBrowser';
+
 
 function App() {
   return (
     <div className="App">
-      <Test/>
+      <ResizeBrowser/>
+
 
       
     </div>
