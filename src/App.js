@@ -1,11 +1,15 @@
 
 import './App.css';
-import { ClearFix } from './components/ClearFix';
+
+import { FloatNext } from './FloatNext';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <ClearFix/>
+      <FloatNext/>
       
     </div>
   );

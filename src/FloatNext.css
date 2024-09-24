@@ -1,0 +1,86 @@
+
+
+.container{
+    background-color: antiquewhite;
+    height:1000px;
+}
+
+.box1, .box2{
+
+    float : left;
+
+    
+
+}
+.box1{
+
+    margin-right:225px;
+}
+
+.box2{
+
+    margin-top:20px;
+}
+
+.one{
+
+    background-color: red;
+    float : right;
+    padding:20px;
+    
+}
+
+.two{
+    background-color: yellow;
+    float : right;
+    padding:20px;
+}
+
+.three{
+    background-color: green;
+    float : right;
+    padding:20px;
+}
+
+@media screen and (min-width: 900px) {
+
+    h2, p {
+
+        font-size: 12px;
+    }
+
+    .box2 div{
+
+        padding:5px;
+       
+    }
+
+    .box2{
+
+        float : right;
+    
+        
+    
+    }
+
+}
+
+@media screen and (max-width: 671px) {
+
+
+.box1, .box2{
+
+   float:none;
+
+    
+
+}
+
+
+}
+
+/*{
+
+how to make the divs stopped floating after 671px
+
+}*/
