@@ -1,0 +1,64 @@
+*{
+
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: blanchedalmond;
+    height:1000px;
+  
+}
+
+.box::after{
+
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+
+.one{
+
+    background-color: #bbb;
+    width: 33.33%;
+    padding: 50px; 
+    float: left;
+}
+
+.two{
+    background-color: #ccc;
+     width: 33.33%;
+    padding: 50px; 
+    float: left;
+}
+
+.three{
+    background: #ddd;
+    width: 33.33%;
+    padding: 50px; 
+    float: left;
+
+}
+
+.para{
+    margin-top:100px;
+}
+@media screen and (max-width:600px) {
+
+.one{
+    float:none;
+    width:100%;
+}
+.two{
+    float:none;
+    width:100%;
+}
+.three{
+    float:none;
+    width:100%;
+}
+    
+}
+

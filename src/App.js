@@ -1,16 +1,18 @@
 
 import './App.css';
 
-import { ResizeBrowser } from './components/ResizeBrowser';
+
+import { FloatNext } from './FloatNext';
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <ResizeBrowser/>
+      <FloatNext/>
 
-
-      
     </div>
   );
 }

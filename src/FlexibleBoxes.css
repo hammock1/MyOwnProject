@@ -1,0 +1,50 @@
+
+*{
+    box-sizing:border-box;
+}
+
+.boxes{
+    background-color: #f1f1f1;
+
+}
+.box1{
+   
+    width: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    border:3px solid blue;
+    float:left;
+     height :400px; 
+     overflow:auto;
+}
+
+.box2{
+   
+    width: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    border:3px solid blue;
+    float:right;
+     height:400px; 
+
+}
+
+.flex-container{
+
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+
+
+}
+.clear{
+
+    clear:both; 
+    
+   
+}
+
+
+
