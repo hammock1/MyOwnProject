@@ -1,0 +1,32 @@
+.container{
+
+    background-color: lightskyblue;
+   height: 1000px;
+}
+
+.menu{
+
+    background-color: pink;
+    width:100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+}
+
+
+li a{
+
+display: inline-block;
+text-decoration: none;
+padding: 14px 16px;
+color:white;
+
+
+}
+
+.active{
+
+background-color: darkred;
+}

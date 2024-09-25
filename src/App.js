@@ -1,7 +1,8 @@
 
 import './App.css';
+import { HorizontalFlexMenu } from './HorizontalFlexMenu';
 
-import { FloatNext } from './FloatNext';
+
 
 
 
@@ -9,7 +10,7 @@ import { FloatNext } from './FloatNext';
 function App() {
   return (
     <div className="App">
-      <FloatNext/>
+      <HorizontalFlexMenu/>
       
     </div>
   );
